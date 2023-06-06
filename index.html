@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    <title>Contact Form</title>
+    <!-- Form styling -->
+    <link rel="stylesheet" href="formcarry-form.css" />
+  </head>
+  <body>
+    <div class="formcarry-container">
+      <form action="https://formsubmit.co/preeti.khamkar62@gmail.com" method="POST" class="formcarry-form">
+        <header>Contact Us</header>
+        <article>Have Any Query? Fill Out This Form!
+
+        </article>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Full Name" required />
+
+        <label for="number">Phone Number</label>
+        <input type="text" name="number" placeholder="Phone Number" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="hidden" name="_autoresponse" value="Your Responses!">
+
+        <label for="message">Query</label>
+        <textarea name="message" id="message" placeholder="Enter Your Query Here!" cols="30" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
